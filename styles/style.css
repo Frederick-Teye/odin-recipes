@@ -1,0 +1,40 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(3, auto);
+    background-color: black;
+    color: white;
+}
+
+main {
+    grid-column-start: 3;
+    grid-column-end: 10;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(3, auto);
+}
+
+header {
+    grid-column-start: 3;
+    grid-column-end: 10;
+}
+
+nav {
+    grid-column-start: 3;
+    grid-column-end: 10;
+}
+
+.oringin {
+    grid-column-start: 3;
+    grid-column-end: 10;
+}
+
+.ingredients {
+    grid-column-start: 3;
+    grid-column-end: 10;
+}
+
+.instructions {
+    grid-column-start: 3;
+    grid-column-end: 10;
+}
