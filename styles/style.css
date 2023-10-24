@@ -88,16 +88,18 @@ section {
 @media screen and (max-width: 729px) {
     img {
         width: 100%;
+        margin: 0 auto;
     }
     
     h1 {
-        margin: auto;
+        margin: 0 auto;
+        margin-bottom: 15px;
     }
 
         .grid-container {
             grid-template-columns: repeat(12, 1fr);
             grid-template-areas:
-                ".. .. hd hd hd hd hd hd hd hd hd .."
+                ".. hd hd hd hd hd hd hd hd hd hd .."
                 ".. mn mn mn mn mn mn mn mn mn mn .."
                 ".. nv nv nv nv nv nv nv nv nv nv ..";
         }
@@ -107,6 +109,10 @@ section {
     }
 
     section {
-        grid-column: 2 / span 12;
+        grid-column: 1 / span 12;
+    }
+
+    header {
+        margin-bottom: 10px;
     }
 }
