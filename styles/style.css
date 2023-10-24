@@ -37,15 +37,7 @@ nav {
    justify-self: center;
 }
 
-.origin {
-    grid-column: 2 / span 4;
-}
-
-.ingredients {
-    grid-column: 2 / span 4;
-}
-
-.instructions {
+section {
     grid-column: 2 / span 4;
 }
 
@@ -100,5 +92,21 @@ section {
     
     h1 {
         margin: auto;
+    }
+
+        .grid-container {
+            grid-template-columns: repeat(12, 1fr);
+            grid-template-areas:
+                ".. .. hd hd hd hd hd hd hd hd hd .."
+                ".. mn mn mn mn mn mn mn mn mn mn .."
+                ".. nv nv nv nv nv nv nv nv nv nv ..";
+        }
+
+    main {
+        grid-template-columns: repeat(12, 1fr);
+    }
+
+    section {
+        grid-column: 2 / span 12;
     }
 }
