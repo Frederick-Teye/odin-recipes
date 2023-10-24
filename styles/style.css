@@ -89,3 +89,16 @@ h3 {
 section {
     margin-bottom: 15px;
 }
+
+
+/* media queries that apply for small screens */
+
+@media screen and (max-width: 729px) {
+    img {
+        width: 100%;
+    }
+    
+    h1 {
+        margin: auto;
+    }
+}
