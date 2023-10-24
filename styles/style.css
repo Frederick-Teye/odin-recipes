@@ -1,3 +1,6 @@
+body {
+    margin: 0;
+}
 .grid-container {
     display: grid;
     grid-template-columns: repeat(12, 1fr);
@@ -15,6 +18,8 @@ main {
 }
 
 header {
+    margin-top: 10px;
+    display: flex;
     grid-column-start: 3;
     grid-column-end: 10;
 }
@@ -37,4 +42,12 @@ nav {
 .instructions {
     grid-column-start: 3;
     grid-column-end: 10;
+}
+
+img {
+    width: 70%;
+}
+
+h1 , h2 {
+    color: orange;
 }
