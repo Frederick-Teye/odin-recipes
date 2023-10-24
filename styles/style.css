@@ -3,45 +3,43 @@ body {
 }
 .grid-container {
     display: grid;
-    grid-template-columns: repeat(12, 1fr);
+    grid-template-columns: repeat(6, 1fr);
     grid-template-rows: repeat(3, auto);
     background-color: black;
     color: white;
+    grid-template-areas:
+            ".. hd hd hd hd .."
+            ".. mn mn mn mn .."
+            ".. nv nv nv nv ..";
 }
 
 main {
-    grid-column-start: 3;
-    grid-column-end: 10;
+    grid-area: mn;
     display: grid;
-    grid-template-columns: repeat(12, 1fr);
+    grid-template-columns: repeat(6, 1fr);
     grid-template-rows: repeat(3, auto);
 }
 
 header {
     margin-top: 10px;
     display: flex;
-    grid-column-start: 3;
-    grid-column-end: 10;
+    grid-area: hd;
 }
 
 nav {
-    grid-column-start: 3;
-    grid-column-end: 10;
+   grid-area: nv;
 }
 
 .origin {
-    grid-column-start: 3;
-    grid-column-end: 10;
+    grid-column: 2 / span 4;
 }
 
 .ingredients {
-    grid-column-start: 3;
-    grid-column-end: 10;
+    grid-column: 2 / span 4;
 }
 
 .instructions {
-    grid-column-start: 3;
-    grid-column-end: 10;
+    grid-column: 2 / span 4;
 }
 
 img {
