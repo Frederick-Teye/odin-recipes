@@ -23,6 +23,9 @@ main {
 header {
     margin-top: 10px;
     display: flex;
+    flex-wrap: wrap;
+    flex-flow: center;
+    flex-direction: row-reverse;
     grid-area: hd;
 }
 
