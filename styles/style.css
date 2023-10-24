@@ -51,11 +51,18 @@ img {
     width: 65%;
 }
 
-h1 , h2 {
+h1 , h2 , h3 {
     color: orange;
     font-family: 'Kalam', cursive;
 }
 
-h3 {
-    font-family: 'Kalam', cursive;
+
+a {
+    text-decoration: none;
+    border-bottom: dashed;
+    color: rgb(236, 204, 145);
+}
+
+a:hover {
+    color: pink;
 }
