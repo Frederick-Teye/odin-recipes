@@ -1,5 +1,6 @@
 body {
     margin: 0;
+    font-family: 'Open Sans', sans-serif;
 }
 .grid-container {
     display: grid;
@@ -52,4 +53,9 @@ img {
 
 h1 , h2 {
     color: orange;
+    font-family: 'Kalam', cursive;
+}
+
+h3 {
+    font-family: 'Kalam', cursive;
 }
