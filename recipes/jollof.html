@@ -96,5 +96,20 @@
             <a href="../index.html">Back to Home</a>
         </nav>
     </div>
+    <script>
+        // Function to update the heading text
+        function updateHeadingText() {
+            const headerElement = document.querySelector('h1');
+            if (window.innerWidth < 729) {
+                headerElement.textContent = 'Jollof Rice Recipe';
+            } else {
+                headerElement.innerHTML = 'Jollof Rice <br> Recipe';
+            }
+        }
+
+        // Call the function when the page loads and when the window is resized
+        window.addEventListener('load', updateHeadingText);
+        window.addEventListener('resize', updateHeadingText);
+    </script>
 </body>
 </html>
