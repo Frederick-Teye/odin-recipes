@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../styles/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kalam:wght@700&family=Open+Sans&display=swap" rel="stylesheet">
+    <title>Yam Porridge Recipe</title>
+    <style>
+        /* media queries that apply for small screens */
+
+@media screen and (max-width: 1273px) {
+    img {
+        width: 80%;
+        margin: 0 auto;
+    }
+    
+    h1 {
+        margin: 0 auto;
+        margin-bottom: 15px;
+    }
+}
+    </style>
+</head>
+
+<body>
+    <div class="grid-container">
+        <header>
+            <h1>Yam Porridge <br> Recipe</h1>
+            <img src="../images/yam-porridge.jpg" alt="plate of Yam Porridge">
+        </header>
+        <main>
+            <section class="origin">
+                <h2>Origin, Looks and More About Yam Porridge</h2>
+                <p>
+                    Yam porridge, also known as mpotompoto, is a popular dish in West Africa, particularly in Nigeria and Ghana. The dish is
+                    made with yam, cocoyam, or sweet potatoes and is typically cooked with a blend of peppers, tomatoes, onions, palm oil,
+                    and seasoning. When finished, it is often served on its own alongside some fried ripe plantains or meat.
+                </p>
+                <p>
+                    The origin of yam porridge is not clear. However, it is believed to have originated from the Yoruba-speaking parts of
+                    Nigeria. The dish has since spread to other parts of West Africa and has become a staple in many households.
+                </p>
+            </section>
+            <section class="ingredients">
+                <h3>Ingredients</h3>
+                <ul>
+                    <li>1 large yam(I love using water yam)</li>
+                    <li>
+                        2 large onion
+                    </li>
+                    <li>2 fresh tomatoes</li>
+                    <li>2 garlic cloves</li>
+                    <li>1 tablespoon tomato paste</li>
+                    <li>Palm oil</li>
+                    <li>Salt</li>
+                    <li>Seasoning cubes</li>
+                    <li>Pepper</li>
+                    <li>Curry powder</li>
+                    <li>Any type of fish(boiled or roasted)</li>
+                </ul>
+            </section>
+            <section class="instructions">
+                <h3>Instructions</h3>
+                <ol>
+                    <li>Peel and cut the yam into small pieces.</li>
+                    <li>Rinse the yam thoroughly to remove any dirt.</li>
+                    <li>
+                        In a pot, add the yam, onions, tomatoes, garlic, tomato paste, and enough water to cover the ingredients.
+                    </li>
+                    <li>
+                        Cover the pot and allow it to boil for about 30 minutes or until the yam is soft.
+                    </li>
+                    <li>Add the salt, black pepper, and curry powder.</li>
+                    <li>
+                        Mash the yam with a spatula to get a porridge consistency.
+                    </li>
+                    <li>
+                        Add your boiled fish or meat.
+                    </li>
+                    <li>Put a different pan on heat and pour oil in it.</li>
+                    <li>Add some chopped onions to the oil when it heated.</li>
+                    <li>
+                        Let the palm oil bobble for sometime and pour it onto the boiling yam and other ingredients in the other pot.
+                    </li>
+                    <li>
+                        Stir everything to get a fine mixture and off the heat under the pan.
+                    </li>
+                    <li>Remove from heat and let it sit for about 5 minutes before serving.</li>
+                    <li>
+                        If you really want to make a yam porridge, watch <a
+                            href="https://youtu.be/Vc7aMOGnY3M?si=lCEb0FnSskz7KkPQ">this
+                            video</a> or <a href="https://youtu.be/yqjlclgmzEY?si=1h1yAB8gXUgz4FgN">this video</a>. I recommend you watch both videos, because they will help you select your ingredients and give you a fine idea about how to go about it.
+                    </li>
+                </ol>
+            </section>
+        </main>
+        <nav>
+            <a href="../index.html">Back to Home</a>
+        </nav>
+    </div>
+    <script>
+        // Function to update the heading text
+        function updateHeadingText() {
+            const headerElement = document.querySelector('h1');
+            if (window.innerWidth < 1274) {
+                headerElement.textContent = 'Yam Porridge Recipe';
+            } else {
+                headerElement.innerHTML = 'Yam Porridge <br> Recipe';
+            }
+        }
+
+        // Call the function when the page loads and when the window is resized
+        window.addEventListener('load', updateHeadingText);
+        window.addEventListener('resize', updateHeadingText);
+    </script>
+</body>
+
+</html>
