@@ -15,6 +15,10 @@ body {
             ".. nv nv nv nv ..";
 }
 
+.grid-container.groundnut img {
+    width: 50%;
+}
+
 main {
     margin: 30px 0;
     grid-area: mn;
@@ -104,6 +108,11 @@ section {
                 ".. hd hd hd hd hd hd hd hd hd hd .."
                 ".. mn mn mn mn mn mn mn mn mn mn .."
                 ".. nv nv nv nv nv nv nv nv nv nv ..";
+        }
+
+        .grid-container.groundnut img {
+            width: 100%;
+            margin: 0 auto;
         }
 
     main {
