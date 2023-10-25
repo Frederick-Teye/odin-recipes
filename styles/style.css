@@ -176,6 +176,10 @@ body.index div.grid-container div.right-container {
 body.index div.grid-container div a span {
     display: block;
     text-align: center;
+    font-size: min(max(1.5em, 4vw), 1.8em);
+    margin-bottom: 25px;
+    margin-top: -10px;
+    line-height: initial;
 }
 
 body.index div.grid-container div a {
