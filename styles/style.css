@@ -182,6 +182,10 @@ body.index div.grid-container div a span {
     line-height: initial;
 }
 
+body.index div.grid-container div a img {
+    width: 100%;
+}
+
 body.index div.grid-container div a {
     border-bottom: none;
 }
