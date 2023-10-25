@@ -50,7 +50,7 @@ img {
 
 h1 , h2 , h3 {
     color: orange;
-    font-family: 'Kalam', cursive;
+    font-family: 'Kalam', cursive, sans-serif;
     line-height: initial;
 }
 
