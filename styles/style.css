@@ -52,6 +52,10 @@ img {
     border-radius: 30px 30px;
 }
 
+img.banku {
+    width: 57%;
+}
+
 h1 , h2 , h3 {
     color: orange;
     font-family: 'Kalam', cursive, sans-serif;
@@ -118,6 +122,11 @@ span {
             width: 100%;
             margin: 0 auto;
         }
+
+                img.banku {
+                    width: 100%;
+                    margin: 0 auto;
+                }
 
     main {
         grid-template-columns: repeat(12, 1fr);

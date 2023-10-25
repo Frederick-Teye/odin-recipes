@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../styles/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kalam:wght@700&family=Open+Sans&display=swap" rel="stylesheet">
+    <title>Banku Recipe</title>
+</head>
+
+<body>
+    <div class="grid-container">
+        <header>
+            <h1>Banku <br> Recipe</h1>
+            <img src="../images/banku-and-okro.jpeg" alt="plate of banku and okro stew" class="banku">
+        </header>
+        <main>
+            <section class="origin">
+                <h2>Origin, Looks and More About Banku</h2>
+                <p>
+                    Banku is a popular Ghanaian dish that is enjoyed in both Ghana and Nigeria. It is made with fermented corn dough and
+                    cassava dough, and is typically eaten with soup or stew.
+                </p>
+                <p>
+                    The origin of banku is not clear. However, it is believed to have originated from the Ga-Adangme people along the
+                    southeastern coast of Ghana. The dish has since spread to other parts of West Africa and has become a staple in many
+                    households.
+                </p>
+            </section>
+            <section class="ingredients">
+                <h3>Ingredients</h3>
+                <ul>
+                    <li>2 cups of corn and cassava dough (banku mix)</li>
+                    <li>
+                        1-2 cups of water
+                    </li>
+                    <li>Salt</li>
+                    <li>You will need wooden paddle for stirring</li>
+                    <li>
+                        If you want to know the exact amount of ingredients to user, I recommend you should watch <a
+                            href="https://youtu.be/18gsCCNn9A8?si=q1ImUWGSCpVG5mfy"
+                            title="It will teach you exactly how to make banku">this video</a> or <a
+                            href="https://youtu.be/D7ti7Sw-U90?si=YRZCNP_M61MoUM12"> this video.</a>
+                    </li>
+                </ul>
+            </section>
+            <section class="instructions">
+                <h3>Instructions</h3>
+                <ol>
+                    <li>
+                        In a bowl, mix the corn and cassava dough (banku mix) with water. Start with about 1 cup of water, and gradually add
+                        more as needed. The dough should be smooth and elastic. Knead it thoroughly to remove any lumps.
+                    </li>
+                    <li>
+                        Transfer the dough to a saucepan or cooking pot and place it on the stovetop.
+                    </li>
+                    <li>
+                        Cook the dough over medium heat, stirring continuously with a wooden paddle or ladle. It should thicken as it cooks.
+                    </li>
+                    <li>
+                        Continue to cook and stir until the banku is smooth, stretchy, and has a slightly sour taste. This can take about 20-30
+                        minutes. Be patient and ensure the dough is well-cooked.
+                    </li>
+                    <li>
+                        Once the banku is cooked, remove it from the heat. Wet your hands with cold water to prevent sticking, and shape the
+                        banku into small, round balls or oval shapes.
+                    </li>
+                    <li>
+                        Banku is typically served with a variety of soups or stews, such as light soup, groundnut soup, palm nut soup, or okra
+                        soup. It's common to serve it with grilled or fried fish, meat, or vegetables, and a side of hot pepper sauce (shito).
+                    </li>
+                    <li>
+                        If you really want to make banku, watch <a href="https://youtu.be/18gsCCNn9A8?si=q1ImUWGSCpVG5mfy" title="It will teach you exactly how to make banku">this
+                            video</a> or <a href="https://youtu.be/D7ti7Sw-U90?si=YRZCNP_M61MoUM12"> this video.</a>
+                    </li>
+                </ol>
+            </section>
+        </main>
+        <nav>
+            <a href="../index.html">Back to Home</a>
+        </nav>
+    </div>
+    <script>
+        // Function to update the heading text
+        function updateHeadingText() {
+            const headerElement = document.querySelector('h1');
+            if (window.innerWidth < 729) {
+                headerElement.textContent = 'Banku Recipe';
+            } else {
+                headerElement.innerHTML = 'Banku Recipe';
+            }
+        }
+
+        // Call the function when the page loads and when the window is resized
+        window.addEventListener('load', updateHeadingText);
+        window.addEventListener('resize', updateHeadingText);
+    </script>
+</body>
+
+</html>
