@@ -148,3 +148,47 @@ span {
         margin-bottom: 10px;
     }
 }
+
+
+/*Styles for index.html*/
+
+body.index {
+    background-color: black;
+    color: white;
+}
+
+body.index div.grid-container h1.index {
+    margin-top: 20px;
+    grid-area: h1;
+    justify-self: center;
+}
+
+body.index div.grid-container div.left-container {
+    grid-area: lc;
+    justify-self: center;
+}
+
+body.index div.grid-container div.right-container {
+    grid-area: rc;
+    justify-self: center;
+}
+
+body.index div.grid-container div a span {
+    display: block;
+    text-align: center;
+}
+
+body.index div.grid-container div a {
+    border-bottom: none;
+}
+
+body.index div.grid-container {
+    display: grid;
+    grid-template-columns: repeat(15, 1fr);
+    grid-template-rows: repeat(4, auto);
+    grid-template-areas:
+            ".. .. h1 h1 h1 h1 h1 h1 h1 h1 h1 h1 h1 .. .."
+            ".. lc lc lc lc lc lc .. rc rc rc rc rc rc .."
+            ".. lc lc lc lc lc lc .. rc rc rc rc rc rc .."
+            ".. lc lc lc lc lc lc .. rc rc rc rc rc rc ..";
+}
