@@ -88,6 +88,10 @@ section {
     margin-bottom: 15px;
 }
 
+span {
+    font-weight: bolder;
+}
+
 
 /* media queries that apply for small screens */
 
