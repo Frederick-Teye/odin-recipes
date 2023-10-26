@@ -119,7 +119,7 @@ span {
             grid-template-areas:
                 ".. hd hd hd hd hd hd hd hd hd hd .."
                 ".. mn mn mn mn mn mn mn mn mn mn .."
-                ".. nv nv nv nv nv nv nv nv nv nv ..";
+                "nv nv nv nv nv nv nv nv nv nv nv nv";
         }
 
         .grid-container.groundnut img {
