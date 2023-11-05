@@ -47,16 +47,19 @@ section {
 }
 
 img {
+    height: auto;
     width: 65%;
     margin-right: 20px;
     border-radius: 30px 30px;
 }
 
 img.banku {
+    height: auto;
     width: 57%;
 }
 
 img.fufu {
+    height: auto;
     width: 60%;
 }
 
@@ -105,6 +108,7 @@ span {
 
 @media screen and (max-width: 729px) {
     img {
+        height: auto;
         width: 100%;
         margin: 0 auto;
     }
@@ -123,16 +127,19 @@ span {
         }
 
         .grid-container.groundnut img {
+            height: auto;
             width: 100%;
             margin: 0 auto;
         }
 
                 img.banku {
+                    height: auto;
                     width: 100%;
                     margin: 0 auto;
                 }
 
                 img.fufu {
+                    height: auto;
                     width: 100%;
                     margin: 0 auto;
                 }
@@ -183,6 +190,7 @@ body.index div.grid-container div a span {
 }
 
 body.index div.grid-container div a img {
+    height: auto;
     width: 100%;
 }
 
