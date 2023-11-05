@@ -16,6 +16,7 @@ body {
 }
 
 .grid-container.groundnut img {
+    height: auto;
     width: 50%;
 }
 
